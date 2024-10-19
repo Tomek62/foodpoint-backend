@@ -44,6 +44,9 @@ importers:
       firebase-tools:
         specifier: ^13.22.0
         version: 13.22.0(encoding@0.1.13)
+      foodpoint-backend:
+        specifier: 'link:'
+        version: 'link:'
       google-auth-library:
         specifier: ^9.14.1
         version: 9.14.1(encoding@0.1.13)
