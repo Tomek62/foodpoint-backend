@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ESNext",                     // Spécifie la version ECMAScript cible
-    "module": "ESNext",                     // Changez CommonJS en ESNext
-    "strict": true,                         // Active toutes les options de vérification de type strict
-    "esModuleInterop": true,                // Permet l'interopérabilité entre CommonJS et ES Modules
-    "skipLibCheck": true,                   // Ignore la vérification des types des fichiers de déclaration
-    "forceConsistentCasingInFileNames": true // Interdit les références de fichiers avec des cas incohérents
+    "target": "ESNext",
+    "module": "ESNext", 
+    "moduleResolution": "node",  // Ajoutez cette ligne
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "src/**/*"                               // Spécifie les fichiers à inclure
+    "src/**/*"
   ],
   "exclude": [
-    "node_modules"                           // Spécifie les fichiers à exclure
+    "node_modules"
   ]
 }
